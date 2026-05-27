@@ -9,7 +9,7 @@ npm install
 npm run dev
 ```
 
-로컬에서는 `DATABASE_URL`이 없으면 `.data/db.json`에 저장합니다.
+로컬에서는 `DATABASE_URL`이 없으면 `.data/db.json`에 저장합니다. Vercel에서는 `DATABASE_URL`이 없으면 임시 메모리 저장으로만 동작하므로 운영 전 DB 연결이 필요합니다.
 
 ## Vercel 환경변수
 
