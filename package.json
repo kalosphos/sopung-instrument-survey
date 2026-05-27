@@ -1,0 +1,22 @@
+{
+  "name": "sopung-instrument-survey",
+  "version": "1.0.0",
+  "description": "Mobile-first instrument survey for Sopung picnic groups.",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "type": "module",
+  "dependencies": {
+    "@neondatabase/serverless": "^1.1.0",
+    "lucide-react": "^1.16.0",
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "overrides": {
+    "postcss": "^8.5.10"
+  }
+}
